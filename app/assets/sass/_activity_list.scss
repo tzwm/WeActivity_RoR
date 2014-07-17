@@ -1,0 +1,65 @@
+/**
+ * Created by van on 14-4-20.
+ */
+@import "compass/css3";
+
+.activity-list {
+  margin-top: 10px;
+
+  .list-item {
+    width: 25%;
+    float: left;
+    padding: 5px 10px;
+
+    .activity {
+      background: #ffffff;
+      padding: 10px;
+
+      .shot {
+        position: relative;
+        display: block;
+
+        .photo {
+          width: 100%;
+          padding: 0;
+          margin-bottom: 0;
+        }
+
+        .item-description {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 20px;
+          background: rgba(255, 255, 255, 0.8);
+          word-break: break-all;
+          color: #888;
+          opacity: 0;
+          z-index: 1;
+
+          &:hover {
+            cursor: pointer;
+          }
+
+          .item-title {
+            padding: 10px 0;
+            font-size: 20px;
+          }
+
+          .item-content {
+
+          }
+        }
+      }
+
+      .toolbar {
+
+      }
+    }
+
+    .item-footer {
+      padding: 5px 10px;
+    }
+  }
+}

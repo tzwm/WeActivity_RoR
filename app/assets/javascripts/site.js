@@ -208,19 +208,3 @@
       }, 200);
     });
 }());
-
-// for activity new
-(function () {
-  $('#inputStartTime').datetimepicker();
-  $('#inputEndTime').datetimepicker();
-  $('#btnSelectFile').on('click', function() {
-    $('#inputSlides')
-      .click()
-      .on('change', function() {
-        var filename = $(this).val();
-        $('#labelFilename').text(filename.substring(filename.lastIndexOf('\\') + 1));
-      });
-  });
-
-
-}());

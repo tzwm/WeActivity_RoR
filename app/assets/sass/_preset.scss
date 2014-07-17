@@ -1,0 +1,26 @@
+/**
+ * Created by van on 14-4-20.
+ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+div, ul, li {
+  position: relative;
+  display: block;
+}
+
+a {
+  color: #999;
+
+  &:hover {
+    color: #777;
+    text-decoration: none;
+  }
+}
